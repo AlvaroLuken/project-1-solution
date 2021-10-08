@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
     "sass": "^1.26.7"
   },
   "dependencies": {
