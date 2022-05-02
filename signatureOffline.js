@@ -12,12 +12,12 @@ const { bytesToHex } = require('@noble/hashes/utils');
 
 (async () => {
   // copy-paste a private key generated when running server/index.js
-  const privateKey = "8ce7352a9ba38700358bc889fe6dc92b55654b359e8ad8d1e2949b8581ca8bdf";
+  const privateKey = "3451c377d47bff61d444cf0abac2e1cb9cd94a80a3a9dc473d7cce4e12ad0272";
 
   // copy-paste a separate account's public key from your server db in to...
   // send an amount less than your current balance!
   const message = JSON.stringify({
-    to: "0x5895a44380eddd3500b1669edf368bd594fa8f29",
+    to: "0x75852c0235f3cfb2b4263645c513aa2610984624",
     amount: parseInt(44)
   });
   
